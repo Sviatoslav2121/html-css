@@ -75,14 +75,14 @@ ul {
 }
 .hero-photo {
   width: 320px;
-  transition: transform 500ms ease-in-out;
+  transition: transform 3s ease-in-out;
   border-left: 2px solid darkblue;
   border-bottom: 6px dashed red;
   border-right: 4px dotted green;
 }
 
 .hero-photo:hover {
-  transform: rotate(360deg);
+  transform: rotate(1080deg);
 }
 
 .side-info {
