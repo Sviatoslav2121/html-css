@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 1280px;
+  padding: 20px 40px;
+}
+
+.text {
+  background-color: blue;
+}
+
+.desc {
+  color: grey;
+}
+
+.header {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+  border-bottom: 2px solid grey;
+}
+
+.my-name {
+  font-size: 48px;
+}
+
+.my-name:hover {
+  color: brown;
+}
+
+.my-social {
+  display: flex;
+  gap: 16px;
+}
+.my-social-iteam {
+}
+.my-social-link:hover {
+  color: brown;
+}
+
+.hero {
+  display: flex;
+  gap: 50px;
+  align-items: baseline;
+}
+
+.hero-name {
+}
+.hero-photo {
+  width: 320px;
+  transition: transform 500ms ease-in-out;
+  border-left: 2px solid darkblue;
+  border-bottom: 6px dashed red;
+  border-right: 4px dotted green;
+}
+
+.hero-photo:hover {
+  transform: rotate(360deg);
+}
+
+.side-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.side-info-part {
+  transition: background-color 300ms ease-in-out 150ms;
+}
+
+.side-info-part:hover {
+  background-color: aqua;
+}
+
+.side-info-title {
+  margin-bottom: 8px;
+}
+.side-info-text {
+}
+.side-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 10px;
+}
+.side-info-item {
+}
